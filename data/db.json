@@ -1,0 +1,58 @@
+{
+  "CallCenter": [
+    {
+      "id": 1,
+      "img": "",
+      "title": "call center system",
+      "desc": " we handles inbound and outbound calls from current and potential customers",
+      "paragraph": "Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Ll Center Consultation Development And Call Center Consultation"
+    },
+    {
+      "id": 2,
+      "img": "assets/imgs/headphone.svg",
+      "title": "Auto outbound calls",
+      "desc": "for web and mobile applications within international standards...",
+      "paragraph": "Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Ll Center Consultation Development And Call Center Consultation"
+    },
+    {
+      "id": 3,
+      "img": "assets/imgs/Setting.svg",
+      "title": "Quality Management",
+      "desc": " we handles inbound and outbound calls from current and potential customers",
+      "paragraph": "Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Ll Center Consultation Development And Call Center Consultation"
+    },
+    {
+      "id": 4,
+      "img": "assets/imgs/PhoneCalll.svg",
+      "title": "incoming calls",
+      "desc": " we handles inbound and outbound calls from current and potential customers",
+      "paragraph": "Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Specializes In Software Development And Call Center Consultation Development And Call Center Consultation Ll Center Consultation Development And Call Center Consultation"
+    }
+  ],
+  "Services": [
+    {
+      "id": 1,
+      "title": "call center system",
+      "img": "assets/imgs/CallCenter.svg",
+      "desc": "We Provides Integrated Call Center Services In An Equipment AndSoftware."
+    },
+    {
+      "id": 2,
+      "title": "web development",
+      "img": "assets/imgs/HelpDesk.svg",
+      "desc": "We Provides Integrated Call Center Services In An Equipment AndSoftware."
+    },
+    {
+      "id": 3,
+      "title": "Help Desk System",
+      "img": "assets/imgs/WevDev.svg",
+      "desc": "We Provides Integrated Call Center Services In An Equipment AndSoftware."
+    },
+    {
+      "id": 3,
+      "title": "app development",
+      "img": "assets/imgs/AppDev.svg",
+      "desc": "We Provides Integrated Call Center Services In An Equipment AndSoftware."
+    }
+  ]
+}
