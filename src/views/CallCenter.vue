@@ -4,7 +4,7 @@
     <div v-if="Service">
       <section
         class="min-w-4xl flex justify-between flex-col md:flex-row sm:mx-14"
-        id="About_Us"
+        id="Service"
       >
         <div class="container w-[100%] sm:mx-10">
           <h6 class="text-xl py-3 text-[#F3AF1C]">call center system</h6>
