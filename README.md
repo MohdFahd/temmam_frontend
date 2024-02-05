@@ -1,5 +1,4 @@
-# temmam_frontend
-
+# Temmam Frontend Project
 ## Project setup
 ```
 npm install
