@@ -21,13 +21,13 @@
       <div class="flex items-end justify-end">
         <div
           onclick="plusSlides(-1)"
-          class="rounded-full flex items-center justify-center bg-[#D9D9D9] w-[40px] h-[40px] cursor-pointer mx-3 mx-1"
+          class="rounded-full flex items-center justify-center bg-[#D9D9D9] w-[40px] h-[40px] cursor-pointer mx-3"
         >
           <img src="assets/imgs/CircleLeftArrow.svg" width="30%" alt="" />
         </div>
         <div
           onclick="plusSlides(1)"
-          class="rounded-full flex items-center justify-center bg-[#D9D9D9] w-[40px] h-[40px] cursor-pointer mx-3 mx-1"
+          class="rounded-full flex items-center justify-center bg-[#D9D9D9] w-[40px] h-[40px] cursor-pointer mx-3"
         >
           <img
             src="assets/imgs/CircleLeftArrow.svg"

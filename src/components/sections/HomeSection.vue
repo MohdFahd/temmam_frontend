@@ -5,7 +5,7 @@
     <div class="flex flex-col sm:w-[100%] sm:mx-24 mx-5">
       <h6 class="text-xl py-3 text-[#F3AF1C]">why choose us</h6>
       <h1
-        class="text-3xl sm:leading-[62px] leading-normal sm:leading-5 sm:text-[50px] font-bold sm:w-[70%] text-[#0F113C]"
+        class="text-3xl sm:leading-[62px] leading-normal sm:text-[50px] font-bold sm:w-[70%] text-[#0F113C]"
       >
         developing solutions for the future
       </h1>
@@ -20,7 +20,7 @@
         class="drop-shadow-lg bg-white text-center text-black rounded-xl absolute top-[130px] left-[-50px] w-[200px] p-3"
       >
         <h2 class="text-2xl font-extrabold text-[#F3AF1C]">
-          15k <span class="text-blue-700 text-[#0F136B]">+</span>
+          15k <span class="text-[#0F136B]">+</span>
         </h2>
         <p class="text-sm font-normal">
           clients who trust us
