@@ -8,7 +8,7 @@
       :class="{ fade: FadeClass }"
       id="Testimonial"
     >
-      <h6 class="text-xl py-3 text-[#F3AF1C]">testimonial</h6>
+      <h6 class="text-xl py-3 text-[#6e6b64]">testimonial</h6>
       <h1 class="text-4xl font-bold text-[#0F113C]">what our customers say</h1>
       <img src="assets/imgs/colon.svg" class="mt-7" alt="" />
 
@@ -24,19 +24,24 @@
 
       <div class="flex items-end justify-end">
         <div
-          class="rounded-full flex items-center justify-center bg-[#D9D9D9] w-[40px] h-[40px] cursor-pointer mx-3"
+          class="rounded-full flex items-center justify-center bg-[#D9D9D9] w-[40px] h-[40px] cursor-pointer mx-3 Parent"
           @click="prevSlide"
         >
-          <img src="assets/imgs/CircleLeftArrow.svg" width="30%" alt="" />
+          <img
+            src="assets/imgs/CircleLeftArrow.svg"
+            width="30%"
+            alt=""
+            class="Child"
+          />
         </div>
         <div
-          class="rounded-full flex items-center justify-center bg-[#D9D9D9] w-[40px] h-[40px] cursor-pointer mx-3"
+          class="rounded-full flex items-center justify-center bg-[#D9D9D9] w-[40px] h-[40px] cursor-pointer mx-3 Parent"
           @click="nextSlide"
         >
           <img
             src="assets/imgs/CircleLeftArrow.svg"
             width="30%"
-            class="rotate-180"
+            class="rotate-180 Child"
             alt=""
           />
         </div>
@@ -107,6 +112,14 @@ export default {
 </script>
 
 <style scoped>
+.Parent:hover .Child {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%)
+    contrast(100%);
+}
+.Parent:hover {
+  background: #0f113c;
+}
+
 .mySlides {
   /* display: none; */
   display: none;
