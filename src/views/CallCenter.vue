@@ -84,34 +84,36 @@
 </template>
 
 <script>
+import data from "/data/db.json";
+
 export default {
   name: "CallCenter",
   props: ["id"],
   data() {
     return {
       Class: "bg-[#F3AF1C] rounded-full",
-      Service: null,
+      Service: data["CallCenter"][this.id - 1],
     };
   },
 
-  beforeRouteEnter(to, from, next) {
-    // Use the provided id parameter to fetch data before the component is created
-    fetch("http://localhost:3000/CallCenter?id=" + to.params.id)
-      .then((res) => res.json())
-      .then((data) => {
-        // Pass the fetched data to the next callback
-        next((vm) => {
-          vm.Service = data[0];
-        });
-      })
-      .catch((err) => {
-        console.error("Error fetching data:", err.message);
-        // Handle errors or set Service to null
-        next((vm) => {
-          vm.Service = null;
-        });
-      });
-  },
+  // beforeRouteEnter(to, from, next) {
+  //   // Use the provided id parameter to fetch data before the component is created
+  //   fetch("http://localhost:3000/CallCenter?id=" + to.params.id)
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       // Pass the fetched data to the next callback
+  //       next((vm) => {
+  //         vm.Service = data[0];
+  //       });
+  //     })
+  //     .catch((err) => {
+  //       console.error("Error fetching data:", err.message);
+  //       // Handle errors or set Service to null
+  //       next((vm) => {
+  //         vm.Service = null;
+  //       });
+  //     });
+  // },
 };
 </script>
 

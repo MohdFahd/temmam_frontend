@@ -3,7 +3,7 @@
     class="flex flex-col sm:flex-row bg-[#0F113C] justify-center text-white p-5"
   >
     <div class="sm:w-[30%]">
-      <img src="/assets/imgs/logo-white.svg" class="my-5" alt="" />
+      <img src="assets/imgs/logo-white.svg" class="my-5" alt="" />
       <p class="text-white sm:w-[50%]">
         A company specializes in the fields of information technology and call
         center consultation
@@ -22,13 +22,13 @@
       <h1 class="my-5 font-bold text-2xl">follow us</h1>
       <div class="flex">
         <a href=""
-          ><img src="/assets/imgs/facebook.svg" class="mx-1" alt=""
+          ><img src="assets/imgs/facebook.svg" class="mx-1" alt=""
         /></a>
         <a href=""
-          ><img src="/assets/imgs/Telegram.svg" class="mx-1" alt=""
+          ><img src="assets/imgs/Telegram.svg" class="mx-1" alt=""
         /></a>
         <a href=""
-          ><img src="/assets/imgs/whatsapp.svg" class="mx-1" alt=""
+          ><img src="assets/imgs/whatsapp.svg" class="mx-1" alt=""
         /></a>
       </div>
     </div>

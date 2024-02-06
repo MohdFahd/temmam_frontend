@@ -33,6 +33,7 @@
 import { ref } from "vue";
 import Button from "../Resources/Button";
 import Card from "../Resources/Card";
+import data from "/data/db.json";
 
 export default {
   name: "Services",
@@ -42,11 +43,10 @@ export default {
   },
   data() {
     return {
+      Services: data["Services"],
       text: "View All",
       ParClass:
         "cursor-pointer bg-white p-10 text-black rounded-xl flex flex-col items-start shadow-md",
-
-      Services: [],
     };
   },
   mounted() {
