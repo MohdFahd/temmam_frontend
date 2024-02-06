@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "json": "json-server --watch data/db.json"
+    "json": "json-server --watch data/db.json",
+    "tailwind": "npx tailwindcss -i ./public/input.css -o ./public/assets/css/output.css --watch"
   },
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
