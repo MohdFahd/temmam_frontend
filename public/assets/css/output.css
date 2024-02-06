@@ -3460,6 +3460,11 @@ input:checked + .toggle-bg {
   color: rgb(33 42 228 / var(--tw-text-opacity));
 }
 
+.text-\[\#6e6b64\] {
+  --tw-text-opacity: 1;
+  color: rgb(110 107 100 / var(--tw-text-opacity));
+}
+
 .text-\[\#F3AF1C\] {
   --tw-text-opacity: 1;
   color: rgb(243 175 28 / var(--tw-text-opacity));
@@ -3733,11 +3738,6 @@ input:checked + .toggle-bg {
 .text-yellow-900 {
   --tw-text-opacity: 1;
   color: rgb(99 49 18 / var(--tw-text-opacity));
-}
-
-.text-\[\#6e6b64\] {
-  --tw-text-opacity: 1;
-  color: rgb(110 107 100 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -4354,16 +4354,6 @@ input:checked + .toggle-bg {
 .hover\:bg-yellow-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(194 120 3 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-blue-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(28 100 242 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[\#0F113C\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 17 60 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gradient-to-bl:hover {
@@ -5701,6 +5691,10 @@ input:checked + .toggle-bg {
 
   .sm\:justify-between {
     justify-content: space-between;
+  }
+
+  .sm\:scroll-smooth {
+    scroll-behavior: smooth;
   }
 
   .sm\:rounded-lg {
