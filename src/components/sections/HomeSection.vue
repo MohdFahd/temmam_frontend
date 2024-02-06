@@ -15,7 +15,7 @@
       </p>
       <Button :text="text" />
     </div>
-    <div class="relative w-[90%]">
+    <div class="relative w-[90%] hidden md:block">
       <div
         class="drop-shadow-lg bg-white text-center text-black rounded-xl absolute top-[130px] left-[-50px] w-[200px] p-3"
       >
