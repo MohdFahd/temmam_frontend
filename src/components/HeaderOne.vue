@@ -1,17 +1,16 @@
 <template>
   <fwb-navbar
-    class="flex justify-between sm:justify-between sm:mx-[82px] my-[35px] font-bold"
+    class="flex justify-between sm:justify-between sm:mx-[82px] my-5 font-bold"
   >
     <template #logo>
       <div>
         <fwb-navbar-logo alt=" logo" image-url="assets/imgs/logo.svg" link="#">
-          <img src="" alt="" />
         </fwb-navbar-logo>
       </div>
     </template>
     <template #default="{isShowMenu}">
       <div class="hidden lg:block">
-        <nav class="space-x-8 text-xl text-center" aria-label="main">
+        <nav class="text-xl text-center" aria-label="main">
           <router-link to="/">
             <a
               href="#Home"

@@ -5,7 +5,7 @@
   >
     <div class="flex flex-col w-[100%] sm:p-20 p-5">
       <h6 class="text-xl py-3 text-[#F3AF1C]">Our Services</h6>
-      <h1 class="sm:text-5xl/[50px] text-4xl font-bold text-[#0F113C] w-[90%]">
+      <h1 class="sm:text-5xl/[50px] text-3xl font-bold text-[#0F113C]">
         latest from the services
       </h1>
       <p class="text-lg w-[80%] py-3 text-gray-600">

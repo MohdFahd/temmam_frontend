@@ -6,7 +6,7 @@
     <div class="container w-[100%] sm:mx-10 p-5">
       <h6 class="text-xl py-3 text-[#F3AF1C]">about us</h6>
       <h1
-        class="sm:text-5xl/[50px] text-4xl font-bold text-[#0F113C] sm:w-[70%]"
+        class="text-3xl sm:leading-[62px] leading-normal sm:text-[50px] font-bold text-[#0F113C] sm:w-[70%]"
       >
         our company is here to help you
       </h1>
