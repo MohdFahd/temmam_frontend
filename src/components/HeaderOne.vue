@@ -1,6 +1,6 @@
 <template>
   <fwb-navbar
-    class="flex justify-between sm:justify-between sm:mx-[82px] my-[35px] font-bold"
+    class="flex justify-between sm:justify-between sm:mx-[82px] my-5 font-bold"
   >
     <template #logo>
       <div>
@@ -28,6 +28,14 @@
           <a href="#About_Us" class="hover:opacity-90 hover:text-blue-700"
             >About Us</a
           >
+          <router-link to="/Services">
+            <a
+              href="#Services"
+              class="hover:opacity-90"
+              :class="{ 'text-blue-700': $route.path === '/Services' }"
+              >Services</a
+            >
+          </router-link>
           <a href="#Services" class="hover:opacity-90 hover:text-blue-700"
             >Services</a
           >

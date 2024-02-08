@@ -7,7 +7,7 @@
         id="Service"
       >
         <div class="container w-[100%] sm:mx-10">
-          <h6 class="text-xl py-3 text-[#F3AF1C]">call center system</h6>
+          <h6 class="text-xl py-3 text-[#c4beb2]">call center system</h6>
           <h1 class="sm:text-4xl text-4xl font-bold text-[#0F113C]">
             {{ Service.title }}
           </h1>
@@ -16,7 +16,7 @@
           </p>
         </div>
         <div class="w-[90%] flex justify-center items-center">
-          <img src="/assets/imgs/CallCenterPage.svg" alt="" />
+          <img src="assets/imgs/CallCenterPage.svg" alt="" />
         </div>
       </section>
 
@@ -27,7 +27,7 @@
         <div class="mt-10 grid sm:grid-cols-2">
           <div class="flex items-center my-4">
             <img
-              src="/assets/imgs/Features 1.svg"
+              src="assets/imgs/Features 1.svg"
               class="bg-[#F3AF1C] rounded-full p-3"
               alt=""
             />
@@ -35,7 +35,7 @@
           </div>
           <div class="flex items-center my-4">
             <img
-              src="/assets/imgs/Features 2.svg"
+              src="assets/imgs/Features 2.svg"
               class="bg-[#F3AF1C] rounded-full p-3"
               alt=""
             />
@@ -45,7 +45,7 @@
           </div>
           <div class="flex items-center my-4">
             <img
-              src="/assets/imgs/Features 3.svg"
+              src="public/assets/imgs/Features 3.svg"
               class="bg-[#F3AF1C] rounded-full p-3"
               alt=""
             />
@@ -84,7 +84,7 @@
 </template>
 
 <script>
-import data from "/data/db.json";
+import data from "data/db.json";
 
 export default {
   name: "CallCenter",

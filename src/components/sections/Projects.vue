@@ -4,7 +4,7 @@
       recent work
     </h5>
     <h1
-      class="text-center sm:text-5xl/[40px] text-4xl font-bold text-[#0F113C] sm:mb-0 mb-5"
+      class="text-center sm:text-5xl/[40px] text-3xl font-bold text-[#0F113C] sm:mb-0 mb-5"
     >
       our recent projects
     </h1>
