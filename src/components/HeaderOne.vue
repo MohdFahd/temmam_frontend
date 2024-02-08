@@ -4,7 +4,7 @@
   >
     <template #logo>
       <div>
-        <fwb-navbar-logo alt=" logo" image-url="assets/imgs/logo.svg" link="#">
+        <fwb-navbar-logo alt=" logo" image-url="/assets/imgs/logo.svg" link="#">
           <img src="" alt="" />
         </fwb-navbar-logo>
       </div>
