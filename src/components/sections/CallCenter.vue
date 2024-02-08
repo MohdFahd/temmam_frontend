@@ -32,7 +32,6 @@
 </template>
 
 <script>
-import axios from "axios";
 import data from "/data/db.json";
 
 import Card from "../Resources/Card";

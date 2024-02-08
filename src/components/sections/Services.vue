@@ -49,12 +49,12 @@ export default {
         "cursor-pointer bg-white p-10 text-black rounded-xl flex flex-col items-start shadow-md",
     };
   },
-  mounted() {
-    fetch("http://localhost:3000/Services")
-      .then((res) => res.json())
-      .then((data) => (this.Services = data))
-      .catch((err) => console.log(err.message));
-  },
+  // mounted() {
+  //   fetch("http://localhost:3000/Services")
+  //     .then((res) => res.json())
+  //     .then((data) => (this.Services = data))
+  //     .catch((err) => console.log(err.message));
+  // },
 };
 </script>
 

@@ -36,11 +36,14 @@
 </template>
 
 <script>
+import data from "/data/db.json";
+
 import Card from "../components/Resources/Card";
 export default {
   data() {
     return {
-      Services: [],
+      // Services: [],
+      Services: data["Services"],
       Class: "w-[80px] h-[80px] self-center mx-5",
       ParClass:
         "cursor-pointer mt-5  bg-white p-10 text-black rounded-xl flex flex-col sm:flex-row items-start shadow-md sm:w-1/2 mb-3",
@@ -49,12 +52,12 @@ export default {
   components: {
     Card,
   },
-  mounted() {
-    fetch("http://localhost:3000/Services")
-      .then((res) => res.json())
-      .then((data) => (this.Services = data))
-      .catch((err) => console.log(err.message));
-  },
+  // mounted() {
+  //   fetch("http://localhost:3000/Services")
+  //     .then((res) => res.json())
+  //     .then((data) => (this.Services = data))
+  //     .catch((err) => console.log(err.message));
+  // },
 };
 </script>
 
