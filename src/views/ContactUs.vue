@@ -1,12 +1,10 @@
 <template>
   <section
-    class="min-w-4xl flex justify-between flex-col md:flex-row sm:mx-14 p-3"
+    class="min-w-4xl flex justify-between flex-col md:flex-row sm:mx-14 p-3 my-5"
     id="ContactUs"
   >
     <div class="container w-[100%] sm:mx-10">
-      <h1 class="sm:text-4xl text-4xl font-bold text-[#0F113C]">
-        Contact us
-      </h1>
+      <h1 class="sm:text-4xl text-4xl font-bold text-[#0F113C]">Contact us</h1>
       <p class="text-lg py-3 text-gray-600 w-[80%]">
         You can contact us to request a service or express your feelings through
         this form using social media links.

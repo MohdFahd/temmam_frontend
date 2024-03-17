@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="flex flex-col sm:flex-row bg-[#0F113C] justify-center text-white p-5"
+    class="flex flex-col sm:flex-row bg-[#0F113C] justify-center text-white p-10"
   >
     <div class="sm:w-[30%]">
       <img src="/assets/imgs/logo-white.svg" class="my-5" alt="" />

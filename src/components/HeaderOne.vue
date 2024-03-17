@@ -9,7 +9,7 @@
         </fwb-navbar-logo>
       </div>
     </template>
-    <template #default="{isShowMenu}">
+    <template #default="{ isShowMenu }">
       <div class="hidden lg:block">
         <nav class="space-x-8 text-xl text-center" aria-label="main">
           <router-link to="/">
@@ -28,14 +28,14 @@
           <a href="#About_Us" class="hover:opacity-90 hover:text-blue-700"
             >About Us</a
           >
-          <router-link to="/Services">
+          <!-- <router-link to="/Services">
             <a
               href="#Services"
               class="hover:opacity-90"
               :class="{ 'text-blue-700': $route.path === '/Services' }"
               >Services</a
             >
-          </router-link>
+          </router-link> -->
           <a href="#Services" class="hover:opacity-90 hover:text-blue-700"
             >Services</a
           >
@@ -66,9 +66,7 @@
             <h1>Call Center</h1>
           </router-link>
         </fwb-navbar-link>
-        <fwb-navbar-link link="#">
-          About Us
-        </fwb-navbar-link>
+        <fwb-navbar-link link="#"> About Us </fwb-navbar-link>
         <fwb-navbar-link
           :class="$route.path === '/Services' ? 'is-active' : ''"
         >
@@ -76,9 +74,7 @@
             <h1>Services</h1>
           </router-link>
         </fwb-navbar-link>
-        <fwb-navbar-link link="#">
-          Projects
-        </fwb-navbar-link>
+        <fwb-navbar-link link="#"> Projects </fwb-navbar-link>
         <fwb-navbar-link
           :class="$route.path === '/ContactUs' ? 'is-active' : ''"
           link="#"

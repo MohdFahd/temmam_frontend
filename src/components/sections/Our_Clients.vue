@@ -8,21 +8,6 @@
     >
       clients who trust us
     </h1>
-
-    <!-- <div class="flex justify-center my-10 rounded text-white">
-      <div class="cursor-pointer flex items-center">
-        <img src="assets/imgs/CircleLeftArrow.svg" alt="" />
-      </div>
-      <img src="assets/imgs/onesight.svg" class="cursor-pointer mx-3" alt="" />
-      <img src="assets/imgs/Al-Jammal.svg" class="cursor-pointer mx-3" alt="" />
-      <img src="assets/imgs/Restore.svg" class="cursor-pointer mx-3" alt="" />
-      <img src="assets/imgs/MIS.svg" class="cursor-pointer mx-3" alt="" />
-      <img src="assets/imgs/tree.svg" class="cursor-pointer mx-3" alt="" />
-      <img src="assets/imgs/tree.svg" class="cursor-pointer mx-3" alt="" />
-      <div class="cursor-pointer flex items-center">
-        <img src="assets/imgs/CircleLeftArrow.svg" class="rotate-180" alt="" />
-      </div>
-    </div> -->
   </section>
   <div class="flex justify-center my-10 rounded text-white">
     <swiper
@@ -57,51 +42,52 @@
       class="mySwiper"
     >
       <swiper-slide>
+        <!-- HTML -->
+
         <img
-          src="assets/imgs/Al-Jammal.svg"
-          class="cursor-pointer mx-3"
+          src="assets/imgs/client.png"
+          width="50%"
+          class="cursor-pointer mx-3 grayscale transition duration-300 transform hover:grayscale-0"
           alt=""
         />
       </swiper-slide>
       <swiper-slide>
+        <!-- HTML -->
+
         <img
-          src="assets/imgs/onesight.svg"
-          class="cursor-pointer mx-3"
+          src="assets/imgs/client.png"
+          width="50%"
+          class="cursor-pointer mx-3 grayscale transition duration-300 transform hover:grayscale-0"
           alt=""
         />
       </swiper-slide>
       <swiper-slide>
+        <!-- HTML -->
+
         <img
-          src="assets/imgs/onesight.svg"
-          class="cursor-pointer mx-3"
+          src="assets/imgs/client.png"
+          width="50%"
+          class="cursor-pointer mx-3 grayscale transition duration-300 transform hover:grayscale-0"
           alt=""
         />
       </swiper-slide>
       <swiper-slide>
+        <!-- HTML -->
+
         <img
-          src="assets/imgs/onesight.svg"
-          class="cursor-pointer mx-3"
+          src="assets/imgs/client.png"
+          width="50%"
+          class="cursor-pointer mx-3 grayscale transition duration-300 transform hover:grayscale-0"
           alt=""
         />
       </swiper-slide>
       <swiper-slide>
+        <!-- HTML -->
+
         <img
-          src="assets/imgs/onesight.svg"
-          class="cursor-pointer mx-3"
-          alt=""
-        />
-      </swiper-slide>
-      <swiper-slide>
-        <img
-          src="assets/imgs/onesight.svg"
-          class="cursor-pointer mx-3"
-          alt=""
-        />
-      </swiper-slide>
-      <swiper-slide>
-        <img
-          src="assets/imgs/onesight.svg"
-          class="cursor-pointer mx-3"
+          src="assets/imgs/client.png"
+          width="50%"
+          class="cursor-pointer mx-3 grayscale transition duration-300 transform hover:grayscale-0"
           alt=""
         />
       </swiper-slide>

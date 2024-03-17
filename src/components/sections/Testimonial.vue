@@ -47,8 +47,11 @@
         </div>
       </div>
     </div>
-    <div class="w-[90%]">
+    <!-- <div class="w-[80%]">
       <img src="assets/imgs/testimonial.svg" wi alt="" />
+    </div> -->
+    <div class="w-full flex justify-center items-center">
+      <img src="assets/imgs/testimonial.svg" width="70%" wi alt="" />
     </div>
   </section>
 </template>
