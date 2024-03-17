@@ -2,7 +2,7 @@
   <section
     class="min-w-4xl justify-between capitalize flex flex-col md:flex-row"
   >
-    <div class="flex flex-col sm:w-[100%] sm:mx-24 mx-5">
+    <div class="flex flex-col sm:w-[100%] sm:mx-24 mx-5 mb-10">
       <h6 class="text-xl py-3 text-[#F3AF1C]">why choose us</h6>
       <h1
         class="text-3xl sm:leading-[62px] leading-normal sm:text-[50px] font-bold sm:w-[70%] text-[#0F113C]"

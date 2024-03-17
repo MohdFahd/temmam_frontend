@@ -1,5 +1,6 @@
 <template>
   <section id="Call_Center" class="scroll-smooth">
+    {{ jsonData }}
     <h5 class="text-center text-[#F3AF1C] text-xl sm:p-6 p-0">
       Call Center
     </h5>
@@ -12,9 +13,9 @@
       class="flex flex-wrap justify-center items-center sm:my-10 gap-5 rounded text-white mt-3"
     >
       <router-link
-        :to="{ name: 'CallCenter', params: { id: Service.id } }"
         v-for="Service in Services"
         :key="Service.id"
+        :to="{ name: 'CallCenter', params: { id: Service.id } }"
       >
         <Card :ImgClass="Class" :Contents="Service" :ParClass="ParClass" />
       </router-link>
@@ -31,6 +32,8 @@
 </template>
 
 <script>
+import data from "/data/db.json";
+
 import Card from "../Resources/Card";
 
 import { ref } from "vue";
@@ -41,19 +44,27 @@ export default {
   },
   data() {
     return {
-      Class: "bg-[#F3AF1C] rounded-full ",
-      Services: [],
+      Services: data["CallCenter"],
+      Class: "bg-[#F3AF1C] rounded-full",
+
       ParClass:
         "cursor-pointer mx-3 drop-shadow-lg bg-white p-5 w-[270px] h-[252px] text-center text-black hover:text-white hover:bg-[#0F136B] rounded-xl mx-3 flex flex-col items-center",
     };
   },
 
-  mounted() {
-    fetch("http://localhost:3000/CallCenter")
-      .then((res) => res.json())
-      .then((data) => (this.Services = data))
-      .catch((err) => console.log(err.message));
-  },
+  // mounted() {
+  //   // Using axios
+  //   axios
+  //     .get("@/db.json")
+  //     .then((response) => {
+  //       // Handle successful response
+  //       console.log(response.data);
+  //     })
+  //     .catch((error) => {
+  //       // Handle error
+  //       console.error("Error fetching JSON file:", error);
+  //     });
+  // },
 };
 </script>
 

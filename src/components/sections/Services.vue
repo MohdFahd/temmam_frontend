@@ -5,7 +5,7 @@
   >
     <div class="flex flex-col w-[100%] sm:p-20 p-5">
       <h6 class="text-xl py-3 text-[#F3AF1C]">Our Services</h6>
-      <h1 class="sm:text-5xl/[50px] text-4xl font-bold text-[#0F113C] w-[90%]">
+      <h1 class="sm:text-5xl/[50px] text-3xl font-bold text-[#0F113C]">
         latest from the services
       </h1>
       <p class="text-lg w-[80%] py-3 text-gray-600">
@@ -33,6 +33,7 @@
 import { ref } from "vue";
 import Button from "../Resources/Button";
 import Card from "../Resources/Card";
+import data from "/data/db.json";
 
 export default {
   name: "Services",
@@ -42,19 +43,18 @@ export default {
   },
   data() {
     return {
+      Services: data["Services"],
       text: "View All",
       ParClass:
         "cursor-pointer bg-white p-10 text-black rounded-xl flex flex-col items-start shadow-md",
-
-      Services: [],
     };
   },
-  mounted() {
-    fetch("http://localhost:3000/Services")
-      .then((res) => res.json())
-      .then((data) => (this.Services = data))
-      .catch((err) => console.log(err.message));
-  },
+  // mounted() {
+  //   fetch("http://localhost:3000/Services")
+  //     .then((res) => res.json())
+  //     .then((data) => (this.Services = data))
+  //     .catch((err) => console.log(err.message));
+  // },
 };
 </script>
 
